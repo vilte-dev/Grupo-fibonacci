@@ -1,0 +1,8 @@
+GRUPO FIBONNACI
+MANUEL ARAMAYO
+CESAR MAIGUA
+ROMEO CHAVEZ
+SAMUEL VILTE
+RODRIGO GUERRERO
+CASOS DE USO
+En la carpeta se encuentran los casos de uso realizados en draw.io e imágenes 
