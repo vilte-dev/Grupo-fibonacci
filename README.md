@@ -2,11 +2,13 @@
 
 Sistema web para gestionar las órdenes de trabajo de un taller de reparación de equipos (laptops, PCs de escritorio, consolas, etc.), desde la recepción hasta la entrega y la garantía.
 
-**Universidad Privada Domingo Savio – Facultad de Ingenierías**
-**Materia:** Desarrollo de Sistemas II
-**Docente:** Ing. Eddy Roger Calderón Caquiva
-**Actividad 1:** Casos de uso, actores, requerimientos funcionales y no funcionales
-**Tarija, noviembre 2026**
+| | |
+|---|---|
+| **Universidad** | Universidad Privada Domingo Savio – Facultad de Ingenierías |
+| **Materia** | Desarrollo de Sistemas II |
+| **Docente** | Ing. Eddy Roger Calderón Caquiva |
+| **Actividad 1** | Casos de uso, actores, requerimientos funcionales y no funcionales |
+| **Lugar y fecha** | Tarija, noviembre 2026 |
 
 ## Integrantes
 
@@ -15,6 +17,19 @@ Sistema web para gestionar las órdenes de trabajo de un taller de reparación d
 - Samuel Narciso Vilte Tarraga
 - Manuel Ignacio Aramayo Hoyos
 - Guerrero Riera Rodrigo Sebastián
+
+---
+
+## Tabla de contenido
+
+1. [Actores](#1-actores)
+2. [Casos de uso](#2-casos-de-uso)
+3. [Requerimientos funcionales (RF)](#3-requerimientos-funcionales-rf)
+4. [Requerimientos no funcionales (RNF)](#4-requerimientos-no-funcionales-rnf)
+5. [Estructura del repositorio](#5-estructura-del-repositorio)
+6. [Flujo de trabajo con ramas](#6-flujo-de-trabajo-con-ramas)
+7. [Asignación de tareas](#7-asignación-de-tareas)
+
 ---
 
 ## 1. Actores
@@ -126,12 +141,29 @@ reparaciones-flash/
 ├── docs/
 │   ├── requisitos/        # Documento de requisitos y actores
 │   ├── casos-de-uso/      # Diagramas de casos de uso (.drawio y .png)
-│   └── diagrama-clases/   # Diagrama de clases (.drawio y .png)
+│   ├── diagrama-clases/   # Diagrama de clases (.drawio y .png)
+│   └── diagrama-objetos/  # Diagrama de objetos (.drawio y .png)
 └── src/                   # Código fuente (próximas etapas)
 ```
 
+---
+
 ## 6. Flujo de trabajo con ramas
 
-- `main`: versión entregable.
-- `develop`: integración del trabajo del equipo.
-- `docs/...` y `feature/...`: una rama por tarea o módulo, que se une a `develop` mediante Pull Request revisado por otro integrante.
+| Rama | Propósito |
+|---|---|
+| `main` | Versión entregable. |
+| `develop` | Integración del trabajo del equipo. |
+| `docs/...` y `feature/...` | Una rama por tarea o módulo. Se une a `develop` mediante Pull Request revisado por otro integrante. |
+
+---
+
+## 7. Asignación de tareas
+
+| Integrante | Rol / Tarea | Rama | Carpeta |
+|---|---|---|---|
+| Samuel Narciso Vilte Tarraga | Encargado del repositorio e integración (revisa y fusiona los Pull Requests hacia `develop`) | `develop` / `main` | Todo el repositorio |
+| Romeo Lancelot Chavez Cuellar | Documento de requisitos y actores | `docs/requisitos` | `docs/requisitos` |
+| Pablo Cesar Maigua Ortiz | Diagrama de clases | `docs/diagrama-clases` | `docs/diagrama-clases` |
+| Manuel Ignacio Aramayo Hoyos | Diagramas de casos de uso | `docs/casos-de-uso` | `docs/casos-de-uso` |
+| Guerrero Riera Rodrigo Sebastián | Diagrama de objetos | `docs/diagrama-objetos` | `docs/diagrama-objetos` |
