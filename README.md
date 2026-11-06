@@ -14,7 +14,7 @@ Sistema web para gestionar las órdenes de trabajo de un taller de reparación d
 - Pablo Cesar Maigua Ortiz
 - Samuel Narciso Vilte Tarraga
 - Manuel Ignacio Aramayo Hoyos
-
+- Guerrero Riera Rodrigo Sebastián
 ---
 
 ## 1. Actores
